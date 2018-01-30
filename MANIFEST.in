@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sales_kpi *.css
+recursive-include sales_kpi *.csv
+recursive-include sales_kpi *.html
+recursive-include sales_kpi *.ico
+recursive-include sales_kpi *.js
+recursive-include sales_kpi *.json
+recursive-include sales_kpi *.md
+recursive-include sales_kpi *.png
+recursive-include sales_kpi *.py
+recursive-include sales_kpi *.svg
+recursive-include sales_kpi *.txt
+recursive-exclude sales_kpi *.pyc
